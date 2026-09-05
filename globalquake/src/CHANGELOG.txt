@@ -1,0 +1,114 @@
+=== 1.1.2 ===
+
+## UI Enhancements
+- Added a "System" theme option alongside Light and Dark modes (supported on common platforms like Windows and Ubuntu).
+- Made the EULA dialog theme-aware.
+- Redesigned the past earthquake information dialog, which is now also theme-aware.
+- Clicking an earthquake in the left-hand list now focuses the camera on it (speed depends on whether Cinema Mode is active).
+- Hovering over an earthquake in the left-hand list now highlights it.
+- Added direct links to the Guide and Privacy Policy on our new website.
+
+## Bug Fixes
+- Fixed a race condition that occasionally caused waveform issues in the station monitor (such as gaps or incomplete charts).
+- Fixed a rare race condition that caused ShakeMap hexagons to persist on the map long after an earthquake had ended.
+- Fixed arrow key navigation within the past earthquake animation playback.
+- Updated buttons in the Station Select dialog to ensure consistent rendering independent of the system language.
+
+## Other Improvements
+- Improved standard output formatting for various failure scenarios (e.g., invalid setting values or failed checks for the latest version).
+- Updated the default installation path on Windows to `%localappdata%\Programs\GlobalQuake` (previously `%localappdata%\GlobalQuake`).
+
+## Backend Tweaks
+- Increased the per-minute rate limit for archived quake requests on the server, as modifying settings triggers this request.
+- Configured server log retention to a maximum of 30 days to comply with the Privacy Policy.
+
+=== 1.1.1 ===
+
+## UI enhancements
+- Past earthquakes list now has a scrollbar
+- Past earthquakes list buttons now have round corners for a more modern look
+- Arrow keys can now be used to navigate the map
+- The speed of the arrow key map navigation can be adjusted in the settings
+- Plus and minus keys can now be used to zoom in and out of the map
+- The settings panel now has toggleable theme. This applies to other helper windows as well, such as the station monitor and earthquake details panel
+- Simplified the layout of some pages in the settings panel
+- Loading screen has been redesigned with dark theme applied to it
+- Some UI components didn't use the default GlobalQuake font, which has been fixed to ensure a consistent look across the application
+- Disabled stations blinking effect if the station doesn't have data
+
+# Bug fixes
+- GlobalQuake now automatically detects the correct sound mixer in the system so that sound effects correctly load on all platforms
+- Fixed behavior of the past earthquake count and magnitude filters, which were not working as intended
+- All sound effects now have the exact same format for better compatibility
+- Added fallback mechanism for opening links from the application, improving compatibility with various platforms
+
+## Backend changes
+- Improved monitoring of all GlobalQuake server instances to improve reliability and reduce downtime
+
+=== 1.1.0 ===
+
+## New feature
+- Added Global Active Faults Database (GEM) - Toggleable by the F key
+
+## Enhancements
+- Minor performance optimization of the waveform graphs
+- Fixed a bug where waveform data was being sent out of order, causing gaps in the waveform display
+- Updated dependencies and excluded irrelevant ones
+- Abbreviated long city names instead of truncating them, improving readability
+- Minor rendering improvements to various elements on the globe to avoid artifacts
+
+=== 1.0.1 ===
+
+- Embedded DejaVu Sans font so that the application uses the same font on all platforms
+- Fixed UTF-8-related issues with city names, including capital cities
+- Fixed glitch when earthquake list panel toggle caused station monitor window to open
+
+=== 1.0.0 ===
+
+## Most Notable Changes:
+- GlobalQuake Client has been simplified to automatically connect to the main server upon launch, simplifying the usage
+- Server details can be configured in a new configuration panel
+- Primary and backup server connection is now supported for maximum redundancy in case of outage
+- Local mode and direct seedlink connection is no longer supported
+- Playground mode is going to be released as a separate application
+- Redesign of station monitor window, supporting interactive waveform browsing and realtime band-pass filter selection
+
+## Enhancements
+- New cities dataset includes every city with 1k+ population and is used to display estimated shaking.
+- Earthquake region name is now computed by the server and send to the client for efficiency
+- Earthquake estimated intensity is now computed by the server and send to the client for efficiency
+- Server reconnections are now better handled in the client to ensure smooth operation when primary or backup server gets switched
+- The delay displayed at each station now represents the true data delay
+- Decrease CPU usage when GlobalQuake window is minimized
+- More accurate FPS
+- Slightly advanced cinema mode now accounts for the affected population by quakes
+- Information about fixed earthquake depth is now being sent by server
+- Program data are now stored in data/ folder instead of .GlobalQuakeData/
+- Output logs gets stored in logs/gq-info/
+- Error logs go into logs/gq-errors/ and can be used for troubleshooting
+
+## Bug fixes
+- Fix potential memory leak related to archived events
+- Fix graphics issues related to system time changes
+- Fix unnecessary CPU usage by sounds service
+- Fix 1-second lag when connecting to server
+
+## Earthquake detection
+- Various tweaks were made to improve Earthquake detection on the server-side
+
+## Internal changes
+- Largest project re-structuration and refactoring since GlobalQuake was created
+- Completely reworked way releasing new versions - zip file with various resources
+- Proper documentation of external dependencies
+- Dynamic linking of external dependencies
+- Updated a lot of dependencies
+- Replaced cities, regions and geojson datasets and included attribution for them
+
+## Legal
+- Users must now accept EULA before using the application
+
+
+=== Note on older versions ===
+
+This changelog only tracks the changes made since the last release on GitHub (v0.11.0_pre-1).
+If you want to see changes made in older versions, visit https://github.com/xspanger3770/GlobalQuake/releases

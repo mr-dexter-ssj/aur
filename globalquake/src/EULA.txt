@@ -1,0 +1,78 @@
+﻿END USER LICENSE AGREEMENT
+concluded within the meaning of Section 1751 of Act No. 89/2012 Coll., the Civil Code
+
+Jakub Španger 
+E-mail: jakub@globalquake.net; jakubspanger1025@gmail.com 
+GitHub: https://github.com/xspanger3770
+(hereinafter referred to as "Provider")
+
+    1. DEFINITIONS
+        1.1 For the purposes of this end user license agreement, the following terms and abbreviations shall apply:
+
+	"Application"
+		Software application called "GlobalQuake" that allows real-time tracking of earthquakes and their display on a map of the globe. Application means the current version of the Application to which the EULA is attached or in which the EULA is incorporated.
+	"CC"
+		Act No. 89/2012 Coll., Civil Code, as amended.
+	"Damage"
+		Damage to property (actual damage or loss of profit) or non-pecuniary damage.
+	"EULA"
+		This document, this end user license agreement concluded between the Parties.
+	"Governing Law"
+		The law of the Czech Republic, in particular CC, excluding conflict of laws provisions.
+	"Parties"
+		Provider and User together.
+	"Updates"
+		Application updates or upgrades such as improving features, providing security 	patches, improving compatibility, optimizing performance, etc.
+	"User"
+		You, the person who agrees to the EULA, downloads or uses the Application and thus has a legal relationship with the Provider.
+	"Website"
+		Website https://globalquake.net/
+
+
+        1.2 Unless otherwise stated in the EULA, capitalized words used herein shall have the meanings set forth above. Headings in the EULA are inserted for convenience only and shall not affect the interpretation of the EULA. References to provisions and annexes in the EULA without reference to any other document are to the provisions and annexes of the EULA. Unless the meaning and context indicate otherwise, words in the singular include their plural and vice versa. Words shall be construed without regard to their gender. For the purposes of Article 6 of the EULA, the above terms are used in the capital, while the meaning remains the same.
+    2. SUBJECT MATTER
+        2.1 The Provider provides the Application to the User free of charge under this EULA. The User agrees to use the Application solely on the basis of the EULA and within the scope of the EULA.
+        2.2 The Provider offers the EULA to an unspecified number of Users. The User accepts the EULA by starting to use the Application and accepts the EULA in a manner that constitutes acceptance of the offer under the Governing Law.
+        2.3 The EULA is non-exclusive. The Provider is entitled to offer and distribute the Application or parts thereof to other persons, regardless of whether Provider offers it under an EULA or other terms.
+        2.4 The Provider shall make the Application available to the User without undue delay after the effective date of the EULA or simultaneously with the acceptance of the EULA. 
+    3. RIGHTS AND OBLIGATIONS
+        3.1 The EULA is non-exclusive and not limited in territory. The EULA includes the following rights and obligations:
+            (a) the User is entitled to use the Application for the duration of the EULA for its own use in a manner that is usual and customary with respect to the nature of the Application;
+            (b) the User is not entitled to use the Application for commercial purposes;
+            (c) the User is not entitled to grant licenses, sublicenses or any other authorization to the Application or any part thereof to a third party, nor to make the Application or any part thereof available or disclose it in any way to third parties;
+            (d) the User shall refrain from copying the Application except for its own use in accordance with Governing Law;
+            (e) the User shall refrain from any modification, conversion to source code, translation, decompilation, reverse engineering, reproduction, merging, publication or distribution of the Application;
+            (f) the User undertakes to refrain from using any data coming into the Application outside the Application; if the Application uses the Provider's servers, these servers are under the Provider's full control and the EULA does not apply to them; the User undertakes to refrain from any requests (and other communication) to the Provider's servers outside the requests (and other communication) in the normal sequence and scope sent by the Application itself when using it; 
+            (g) The User shall refrain from creating any other works of authorship based on or derived from the Application, including the creation of databases or other information sets from data that originate from the Provider's servers or that the Application receives; and
+            (h) the User shall refrain from any examination of the functionality of the Application or any part thereof; all knowledge that the User would obtain by violating this obligation is considered confidential information and, where applicable, trade secrets and the User shall not (i) disclose it to third parties, (ii) use it in its own software, (ii) or otherwise misuse it.
+        3.2 The User acknowledges that the Application may be protected by technical means to prevent copying or unauthorized use. In the event that the EULA is terminated, the Application may be deactivated by Provider, making it impossible to continue to run and use the Application. The User hereby agrees to this measure and undertakes not to take any steps to circumvent such security features and measures. The User is obliged to refrain from any interference or disabling of such technical means that may protect the Application.
+        3.3 The User further shall refrain from using the Application in a manner that would:
+            (a) cause Damage to the Provider or third parties;
+            (b) cause a breach of generally binding legal regulations; 
+            (c) constituted conduct or failure to act contrary to good morals, public policy; or
+            (d) restrict the exercise of the rights of third parties.
+        3.4 The User shall compensate the Provider for Damages incurred by the User's breach of the EULA.
+    4. other INTELLECTUAL PROPERTY RIGHTS
+        4.1 The Application, the Website and their content and the form of this content (especially the graphic design and layout, etc.) and their respective parts belong to the Provider and are protected by intellectual property rights (especially as copyright works, databases, trademarks, industrial designs, etc.). The User is obliged to refrain from any action that may infringe or jeopardize the aforementioned intellectual property rights of the Provider.
+        4.2 All rights or other intellectual property of the Provider, which are not explicitly mentioned in the EULA, the Provider reserves for itself, does not transfer them or grant any license or any other authorization to them.
+    5. UPDATES AND OTHER VERSIONS OF THE APPLICATION
+        5.1 The Provider does not guarantee any further Updates, their scope or that they will be available to the User. The Provider may (but is not obliged to) issue an Update from time to time. 
+        5.2 The Provider does not guarantee that further versions of the Application will also be available free of charge.
+    6. Limitation of Provider's liability
+        6.1 THE APPLICATION IS PROVIDED TO THE USER “AS IS” AND “AS AVAILABLE” WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED. THE PROVIDER MAKES NO GUARANTEES REGARDING THE ACCURACY, AVAILABILITY, COMPLETENESS, FUNCTIONALITY, OR RELIABILITY OF THE APPLICATION. THE PROVIDER DOES NOT WARRANT THAT THE APPLICATION WILL BE COMPATIBLE WITH THE USER’S HARDWARE, SOFTWARE, OR THAT IT WILL MEET THE USER’S EXPECTATIONS OR INTENDED PURPOSE.
+        6.2 THE PROVIDER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL OR INCIDENTAL DAMAGE OF ANY KIND, PRIVATE OR PUBLIC, ARISING OUT OF THE USE OF THE APPLICATION. 
+        6.3 THE PROVIDER'S LIABILITY SHALL BE GOVERNED EXCLUSIVELY BY THE PROVISIONS OF THE EULA. ALL RIGHTS NOT EXPRESSLY GRANTED THEREIN ARE EXCLUDED, REGARDLESS OF THEIR LEGAL BASIS. THE USER HEREBY WAIVES, TO THE MAXIMUM EXTENT PERMITTED BY GOVERNING LAW, THE RIGHTS ARISING FROM THE PROVIDER'S DEFECTIVE PERFORMANCE UNDER THE EULA, THE RIGHTS ARISING FROM THE PROVIDER'S DELAY AND THE RIGHTS TO COMPENSATION FOR DAMAGE AGAINST THE PROVIDER WHICH THE USER MAY INCUR IN CAUSAL CONNECTION WITH THE USE OF THE APPLICATION.
+    7. DURATION OF THE EULA
+        7.1 The EULA is concluded for an indefinite period of time. 
+        7.2 Either Party may terminate the EULA without notice in the manner set out in the EULA. If the Provider makes it impossible for the User to use the Application by technical means, this shall also be considered as a termination of the EULA. If the User uninstalls the Application and stops using it, this shall be deemed to be a termination of the EULA. However, in any case, the EULA lasts for as long as the User uses the Application.
+        7.3 The Parties may withdraw from the EULA under the terms of the law.
+        7.4 If the EULA is terminated for any reason, the User is obliged to refrain from using the Application and the Provider is entitled to prevent the use of the Application. The termination of the EULA shall not affect rights and obligations which by their nature are intended to survive the termination of the EULA.
+    8. GOVERNING LAW AND DISPUTE RESOLUTION
+        8.1 The rights and obligations of the Parties under the EULA shall be governed by the Governing Law. The Parties exclude the application of the UN Convention on Contracts for the International Sale of Goods and further exclude the application of Sections 557, 558(2), 1740(3) of CC and Sections 1748, 1799, 1800 of CC, if possible. The Application is provided free of charge and the Provider does not use any personal data of the User processed outside the purposes of providing the Application or to fulfil its legal obligations, thus the provisions on defective performance under CC and/or Sections 2389a to 2389u of CC do not apply to the relationship between the Provider and the User.
+        8.2 The Parties shall use reasonable efforts to resolve and settle all disputes arising in connection with the EULA amicably.
+        8.3 The Parties agree that all disputes arising out of the EULA or relating to its validity, interpretation and termination shall be adjudicated by the general courts of the Czech Republic, with the courts of the Provider having local jurisdiction. This shall not apply if such an agreement cannot be negotiated in view of the mutual position of the Parties.
+    9. FINAL PROVISIONS
+        9.1 A Party shall not be entitled to assign or transfer in any way its rights or obligations under this EULA without the prior written consent of the other Party. 
+        9.2 The invalidity or ineffectiveness of one provision of the EULA shall not affect the validity of the other provisions of the EULA. The provisions of the EULA shall, in case of doubt, be regarded as valid rather than invalid. 
+
+

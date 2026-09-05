@@ -1,0 +1,1 @@
+/home/mrdexter/git-repos/aur/globalquake/globalquake.sh
