@@ -1,0 +1,50 @@
+# Maintainer: MrDexter <mr.dexter2564@gmail.com>
+# Contributor: Benoit <archlinux@benoit.jp.net>
+# Based on aur/jquake by Benoit <archlinux@benoit.jp.net>
+
+pkgname="globalquake"
+pkgver="1.1.2"
+pkgrel="1"
+pkgdesc="An experimental Java application that can be used to monitor earthquakes world-wide in near real time from publicly available seismic networks."
+arch=('any')
+url="https://globalquake.net/"
+license=('custom:EULA')
+depends=('java-runtime')
+# Java outputs sound through ALSA, so sound servers need their ALSA bridge
+optdepends=('pipewire-alsa: sound output on PipeWire systems'
+            'pulseaudio-alsa: sound output on PulseAudio systems')
+install="${pkgname}.install"
+source=("https://files.globalquake.net/GlobalQuake-${pkgver}.zip"
+        "globalquake.desktop"
+        "globalquake.sh")
+md5sums=('979652f0bfc2eba5e27066871566fbbc'
+         'SKIP'
+         'SKIP')
+
+build() {
+  # Convert app icon
+  bsdtar xf bin/GlobalQuake.jar icon-512.png
+}
+
+package() {
+  # Desktop and launchers
+  install -m 755 -D "${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
+  install -m 755 -D "${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+  # Install icon
+  install -m 644 -D "icon-512.png" "${pkgdir}/usr/share/pixmaps/${pkgname}.png"
+  # Install licenses
+  install -m 755 -d "${pkgdir}/usr/share/licenses/${pkgname}"
+  install -m 755 -t "${pkgdir}/usr/share/licenses/${pkgname}" LICENSES/*
+  install -m 755 -t "${pkgdir}/usr/share/licenses/${pkgname}" EULA.txt
+  install -m 755 -t "${pkgdir}/usr/share/licenses/${pkgname}" EULA.rtf
+  install -m 755 -t "${pkgdir}/usr/share/licenses/${pkgname}" DejaVu_Fonts_License.txt
+  # Install main program and libraries
+  install -m 755 -d "${pkgdir}/usr/share/java/${pkgname}"
+  install -m 644 -t "${pkgdir}/usr/share/java/${pkgname}" bin/GlobalQuake.jar
+  install -m 755 -d "${pkgdir}/usr/share/java/${pkgname}/libs"
+  install -m 644 -t "${pkgdir}/usr/share/java/${pkgname}" libs/*.jar
+  # Install sounds
+  #install -m 755 -d "${pkgdir}/usr/share/${pkgname}"
+  #cp -r sounds "${pkgdir}/usr/share/${pkgname}/"
+}
+

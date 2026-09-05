@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=An experimental Java application that can be used to monitor earthquakes world-wide in near real time from publicly available seismic networks.
+Comment=An experimental Java application that can be used to monitor earthquakes world-wide in near real time from publicly available seismic networks.
+Exec=globalquake
+GenericName[en_US]=GlobalQuake
+GenericName=GlobalQuake
+Icon=globalquake
+MimeType=
+Name[en_US]=GlobalQuake
+Name=GlobalQuake
+#Path=/home/mrdexter/Downloads/GlobalQuake-1.1.1
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
