@@ -8,7 +8,6 @@ Icon=globalquake
 MimeType=
 Name[en_US]=GlobalQuake
 Name=GlobalQuake
-#Path=/home/mrdexter/Downloads/GlobalQuake-1.1.1
 StartupNotify=true
 Terminal=false
 TerminalOptions=
