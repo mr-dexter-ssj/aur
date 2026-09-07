@@ -43,8 +43,5 @@ package() {
   install -m 644 -t "${pkgdir}/usr/share/java/${pkgname}" bin/GlobalQuake.jar
   install -m 755 -d "${pkgdir}/usr/share/java/${pkgname}/libs"
   install -m 644 -t "${pkgdir}/usr/share/java/${pkgname}/libs" libs/*.jar
-  # Install sounds
-  #install -m 755 -d "${pkgdir}/usr/share/${pkgname}"
-  #cp -r sounds "${pkgdir}/usr/share/${pkgname}/"
 }
 
